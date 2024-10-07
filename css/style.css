@@ -31,6 +31,10 @@ ul {
     --gray-bg: #F6F6F6
 }
 
+:root {
+    --colored-button-bg: #7289DA
+}
+
 .align-center {
     align-items: center;
 }
@@ -50,7 +54,8 @@ ul {
 /* COMMON */
 /* Layout */
 body {
-    font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;;
+    font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    ;
 }
 
 .container {
@@ -84,6 +89,11 @@ section {
     color: #ffffff;
 }
 
+.button-colored {
+    background-color: var(--colored-button-bg);
+    color: #ffffff;
+}
+
 /* Header */
 .header {
     height: 60px;
@@ -110,22 +120,22 @@ section {
     background-size: 100%;
     color: #ffffff;
     text-align: center;
- }
+}
 
- .hero-content,
- .hero-buttons {
+.hero-content,
+.hero-buttons {
     display: flex;
     justify-content: center;
     gap: 20px;
- }
+}
 
- .hero-content {
+.hero-content {
     flex-direction: column;
- }
+}
 
- .hero-buttons {
+.hero-buttons {
     padding: 20px;
- }
+}
 
 .white-section {
     background-color: #ffffff;
@@ -134,7 +144,6 @@ section {
 .gray-section {
     background-color: var(--gray-bg);
 }
-
 
 .cols {
     display: flex;
@@ -153,10 +162,15 @@ section {
     padding: 20px 0;
 }
 
-.green-box {
-    /* debug */
-    min-height: 400px;
-    background-color: #008000;
+.one-col {
+    padding: 50px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.one-col-bottom {
+    display: flex;
 }
 
 /* Footer */
