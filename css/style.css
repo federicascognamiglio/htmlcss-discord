@@ -96,21 +96,24 @@ section {
 }
 
 .button-white {
+    border: 1px solid #ffffff;
     background-color: #ffffff;
     color: #000000;
 }
 
 .button-dark {
+    border: 1px solid var(--dark-button-bg);
     background-color: var(--dark-button-bg);
     color: #ffffff;
 }
 
 .button-colored {
+    border: 1px solid var(--colored-button-bg);
     background-color: var(--colored-button-bg);
     color: #ffffff;
 }
 
-/* Header */
+/* HEADER */
 .header {
     height: 60px;
     padding: 10px 0;
@@ -129,9 +132,8 @@ section {
     margin-top: 5px;
 }
 
-/* Main */
+/* MAIN */
 .hero-section {
-    padding: 50px;
     background-image: url(../img/jumbo.png);
     background-size: 100%;
     background-repeat: no-repeat;
@@ -187,14 +189,14 @@ section {
 }
 
 .block-text {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     display: block;
     background-image: url(../img/stars.svg);
     background-size: 100%;
     background-repeat: no-repeat;
 }
 
-/* Footer */
+/* FOOTER */
 footer {
     padding: 20px 0;
     background-color: var(--footer-bg);
@@ -206,10 +208,10 @@ footer {
 }
 
 .flag {
-    max-width: 3%;
+    max-width: 4%;
 }
 
-.col-big-footer {
+.col-40-footer {
     width: 40%;
 }
 
@@ -220,24 +222,20 @@ footer {
 }
 
 .lista-footer {
-    padding: 8px;
+    padding: 8px 0;
 }
 
-.col-small-footer {
-    width: calc(60% / 4);
+.col-15-footer {
+    margin: 0 30px;
+    width: 15%;
 }
 
-.footer-bottom {
-    margin-top: 20px;
-
-    /* debug */
-    background-color: #6bffe6;
+hr {
+    border: 1px solid #455176;
+    margin: 15px 0;
 }
 
 .bottom-elements {
-    height: 10px;
-    padding: 0 10px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
