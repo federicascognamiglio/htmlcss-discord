@@ -115,9 +115,10 @@ section {
 
 /* Main */
 .hero-section {
-    padding: 100px 50px;
+    padding: 50px;
     background-image: url(../img/jumbo.png);
     background-size: 100%;
+    background-repeat: no-repeat;
     color: #ffffff;
     text-align: center;
 }
@@ -169,8 +170,12 @@ section {
     flex-direction: column;
 }
 
-.one-col-bottom {
-    display: flex;
+.block-text {
+    margin-bottom: 30px;
+    display: block;
+    background-image: url(../img/stars.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 /* Footer */
