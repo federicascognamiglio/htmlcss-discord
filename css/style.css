@@ -35,6 +35,14 @@ ul {
     --colored-button-bg: #7289DA
 }
 
+:root {
+    --footer-bg: #23272A
+}
+
+:root {
+    --text-purple: #4468C4
+}
+
 .align-center {
     align-items: center;
 }
@@ -47,8 +55,16 @@ ul {
     font-size: 1rem;
 }
 
+.text-medium {
+    font-size: 1.3rem;
+}
+
 .text-large {
     font-size: 2rem;
+}
+
+.text-purple {
+    color: var(--text-purple);
 }
 
 /* COMMON */
@@ -181,24 +197,34 @@ section {
 /* Footer */
 footer {
     padding: 20px 0;
-    /* debug */
-    background-color: #383838;
+    background-color: var(--footer-bg);
+    color: #ffffff;
 }
 
-.col-40-footer {
+.title-footer {
+    margin-bottom: 10px;
+}
+
+.flag {
+    max-width: 3%;
+}
+
+.col-big-footer {
     width: 40%;
-
-    /* debug */
-    min-height: 300px;
-    background-color: #e38695;
 }
 
-.col-20 {
-    width: 20%;
+.icons {
+    padding: 10px 0;
+    display: flex;
+    gap: 10px;
+}
 
-    /* debug */
-    min-height: 300px;
-    background-color: #0ad6cc;
+.lista-footer {
+    padding: 8px;
+}
+
+.col-small-footer {
+    width: calc(60% / 4);
 }
 
 .footer-bottom {
