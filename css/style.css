@@ -191,9 +191,6 @@ section {
 .block-text {
     margin-bottom: 20px;
     display: block;
-    background-image: url(../img/stars.svg);
-    background-size: 100%;
-    background-repeat: no-repeat;
 }
 
 /* FOOTER */
